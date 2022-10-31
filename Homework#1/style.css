@@ -1,0 +1,4 @@
+.backgroung-image{
+    background-image: url('assets/slide1.png') center / cover;
+	padding-bottom: 500px;
+}
