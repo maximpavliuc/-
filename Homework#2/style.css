@@ -54,3 +54,10 @@ header{
     display: flex;
     justify-content: space-around;
 }
+header div span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
