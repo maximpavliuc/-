@@ -68,3 +68,10 @@ header div h1{
     line-height: 98px;
     color: #313235;
 }
+header div button{
+    background: #DAA520;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 14px 24px;
+}
