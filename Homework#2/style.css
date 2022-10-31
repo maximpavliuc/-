@@ -1,7 +1,6 @@
 #logo{
     display: flex;
 }
-
 nav{
     display: flex;
     width: 1000px;
@@ -29,4 +28,10 @@ nav ul li a{
 }
 body{
     font-family: 'Nunito';
+}
+nav ul li.button a{
+    text-transform: uppercase;
+    border: 1px solid rgba(62, 63, 67, 1);
+    border-radius: 8px;
+    padding: 9px 36px;
 }
