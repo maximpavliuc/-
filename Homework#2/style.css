@@ -20,3 +20,13 @@ nav ul{
 nav ul li.active a{
     color: #c29523;
 }
+nav ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+}
+body{
+    font-family: 'Nunito';
+}
