@@ -1,0 +1,423 @@
+body{
+    font-family: 'Nunito';
+}
+.navbar {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.group25{
+position: absolute;
+z-index: -1;
+left: 900px;
+top: 400px;
+}
+
+.group25-1{
+    position: absolute;
+    z-index: -1;
+    width: 382px;
+    height: 382px;
+    left: 200px;
+    top: 1300px;
+    }
+
+#logo{
+    display: flex;
+}
+
+#logo img{
+    height: 30px;
+}
+
+#logo figcaption{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3E3F43;
+    margin-left: 8px;
+    letter-spacing: 0.25em;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin-left: 110px;
+    height: 30px;
+}
+
+.navbar ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+    text-decoration: none;
+}
+
+.navbar ul li.active a{
+    color: #DAA520;
+}
+
+.navbar ul li a.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    border: 1px solid rgba(34, 34, 34, 0.75);
+    border-radius: 8px;
+    padding: 9px 36px;
+}
+
+header{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235;
+}
+
+header span{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+header button{
+    color: white;
+    background: #DAA520;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 24px;
+}
+
+#header-bg{
+    background: #F9BDBD;
+    width: 770px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    z-index: -1;
+}
+
+#color-bg2{
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    left: 180px;
+    top: 970px;
+    left: 400px;
+    background: #F7DEA6;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: -1;
+}
+
+.container img {
+    margin-top: 30px;
+}
+
+section{
+    width: 1000px;
+    margin: 0 auto;
+}
+#about-us header{
+    align-items: center;
+}
+
+#wwatext{
+    font-size: 36px;
+    margin-left: 10px;
+}
+#wwalogo{
+    color:rgba (137, 121, 66, 0.5);
+}
+h2{
+    font-weight: 800;
+    font-size: 72px;
+    text-align: right;
+    color: rgba(34, 34, 34, 0.1);
+    line-height: 98px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: 380px;
+    width: 500px;
+    max-width: 500px;
+}
+
+#backfigure{
+    z-index: -1;
+}
+
+#section-text span {
+   float: right;
+   font-size: 36px;
+   margin-top: 80px;
+   margin-bottom: 20px;
+}
+
+#section-text p{
+    font-size: 24px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 650px 350px;
+    grid-template-rows: 380px;
+    
+}
+
+#section-text2 span{
+    float: left;
+    font-size: 36px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+#section-text2 p{
+    font-size: 24px;
+}
+
+#fourth img{
+    float: right;
+}
+
+.line{
+    margin-left: 10px;
+}
+
+#how-it-works header{
+    align-items: center;
+
+}
+#how-it-works button{
+    color: white;
+    background: #DAA520;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 24px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+#categories header{
+    align-items: center;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    grid-template-rows: repeat(2,400px);
+    grid-column-gap: 56px;
+    grid-row-gap: 40px;
+}
+
+.color-bg3 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    background: #F9BDBD;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: -1;
+    align-items: center;
+}
+
+.color-bg3 p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 16px;
+}
+
+
+#sn-button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    background: none;
+    padding: 8px 19px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    
+    
+}
+
+#tile2 {
+    background: #F7DEA6;
+}
+
+#tile2 img {
+    padding-left: 20%;
+}
+
+#tile3 {
+    background: #A8DCEC;
+}
+
+#tile3 img {
+    padding-left: 20%;
+}
+
+#tile4 {
+    background: #F9BDBD;
+}
+
+#tile4 img {
+    padding-left: 24%;
+}
+
+#tile5 {
+    background: #F7DEA6;
+}
+
+#tile5 img {
+    padding-left: 8%;
+    padding-top: 15%;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 240px 240px 384px;
+    grid-template-rows: 500px;
+    grid-column-gap: 44px;
+}
+
+#test {
+    height: 320px;
+    width: 240px;
+}
+
+#review {
+    height: 280px;
+    width: 384px;
+} 
+
+.testimony nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.testimony nav ul a{
+    text-decoration: none;
+    color: #000;
+}
+
+#prev a {
+    color: #C4C4C4;
+}
+#next img {
+    transform: rotate(-180deg);
+}
+
+.email {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 150px;
+}
+
+.email p {
+    font-size: 18px;
+    justify-content: center;
+}
+
+.email input {
+    border: 1px solid #DAA520;
+    border-radius: 2px;
+    padding: 8px 24px;
+    width: 330px;
+    z-index: 0;
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.email button {
+    color: white;
+    background: #DAA520;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 24px;
+    z-index: 1;
+    margin-left: -30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer {
+    display: grid;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#footer-logo {
+    width: 250px;
+}
+
+#un-logo {
+    margin-left: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    float: left;
+}
+
+footer tr th a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D8D8D;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
+
+table img{
+    z-index: -1;
+    
+}
+
+.foot{
+    background-image: url("img/Group\ 22.png");
+    background-size: 100% 100%;
+}
+
