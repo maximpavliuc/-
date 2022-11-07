@@ -1,6 +1,20 @@
 body{
     font-family: 'Nunito';
+    margin: 0;
+    padding: 0;
 }
+
+#rectangle{
+    background: #F9BDBD;
+    width: 770px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    z-index: -1;
+}
+
 .navbar {
     display: flex;
     width: 1000px;
@@ -8,22 +22,6 @@ body{
     margin-top: 20px;
     margin-bottom: 120px;
 }
-
-.group25{
-position: absolute;
-z-index: -1;
-left: 900px;
-top: 400px;
-}
-
-.group25-1{
-    position: absolute;
-    z-index: -1;
-    width: 382px;
-    height: 382px;
-    left: 200px;
-    top: 1300px;
-    }
 
 #logo{
     display: flex;
@@ -106,15 +104,35 @@ header button{
     padding: 14px 24px;
 }
 
-#header-bg{
-    background: #F9BDBD;
-    width: 770px;
-    height: 800px;
+.group25{
     position: absolute;
-    top: 0;
-    right: 0;
-    border-bottom-left-radius: 100px;
     z-index: -1;
+    left: 900px;
+    top: 400px;
+}
+
+#text{
+    font-size: 36px;
+    margin-left: 10px;
+}
+#logo-2{
+    color:rgba (137, 121, 66, 0.5);
+}
+
+.line{
+    margin-left: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: 380px;
+    width: 500px;
+    max-width: 500px;
+}
+
+.container img {
+    margin-top: 30px;
 }
 
 #color-bg2{
@@ -130,84 +148,46 @@ header button{
     z-index: -1;
 }
 
-.container img {
-    margin-top: 30px;
-}
-
-section{
-    width: 1000px;
-    margin: 0 auto;
-}
-#about-us header{
-    align-items: center;
-}
-
-#wwatext{
-    font-size: 36px;
-    margin-left: 10px;
-}
-#wwalogo{
-    color:rgba (137, 121, 66, 0.5);
-}
-h2{
-    font-weight: 800;
-    font-size: 72px;
-    text-align: right;
-    color: rgba(34, 34, 34, 0.1);
-    line-height: 98px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(2,500px);
-    grid-template-rows: 380px;
-    width: 500px;
-    max-width: 500px;
-}
-
-#backfigure{
-    z-index: -1;
-}
-
 #section-text span {
-   float: right;
-   font-size: 36px;
-   margin-top: 80px;
-   margin-bottom: 20px;
-}
+    float: right;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+ }
+ 
+ #section-text p{
+     font-size: 24px;
+ }
+    
+.group25-1{
+    position: absolute;
+    z-index: -1;
+    width: 382px;
+    height: 382px;
+    left: 200px;
+    top: 1250px;
+ }
 
-#section-text p{
-    font-size: 24px;
-}
-.container2 {
+.container-2{
     display: grid;
     grid-template-columns: 650px 350px;
-    grid-template-rows: 380px;
-    
+    grid-template-rows: 380px;    
 }
 
-#section-text2 span{
+#section-text-2 span{
     float: left;
     font-size: 36px;
     margin-top: 130px;
     margin-bottom: 20px;
 }
-#section-text2 p{
+#section-text-2 p{
     font-size: 24px;
 }
 
-#fourth img{
+#spoons img{
     float: right;
 }
 
-.line{
-    margin-left: 10px;
-}
-
-#how-it-works header{
-    align-items: center;
-
-}
 #how-it-works button{
     color: white;
     background: #DAA520;
@@ -220,11 +200,7 @@ h2{
     display: flex;
 }
 
-#categories header{
-    align-items: center;
-}
-
-.container3 {
+.container-3 {
     display: grid;
     grid-template-columns: repeat(3,280px);
     grid-template-rows: repeat(2,400px);
@@ -243,8 +219,7 @@ h2{
     align-items: center;
 }
 
-.color-bg3 p {
-    font-family: 'Nunito';
+.color-bg3 p{
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -252,9 +227,7 @@ h2{
     margin-left: 16px;
 }
 
-
 #sn-button {
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -265,8 +238,6 @@ h2{
     position: absolute;
     right: 20px;
     bottom: 20px;
-    
-    
 }
 
 #tile2 {
@@ -302,7 +273,7 @@ h2{
     padding-top: 15%;
 }
 
-.container4 {
+.container-4 {
     display: grid;
     grid-template-columns: 240px 240px 384px;
     grid-template-rows: 500px;
@@ -335,6 +306,7 @@ h2{
 #prev a {
     color: #C4C4C4;
 }
+
 #next img {
     transform: rotate(-180deg);
 }
@@ -373,51 +345,112 @@ h2{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-}
-
-footer {
-    display: grid;
-    width: 1000px;
-    margin: 0 auto;
-}
-
-#footer-logo {
-    width: 250px;
-}
-
-#un-logo {
-    margin-left: 40px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    float: left;
-}
-
-footer tr th a {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #8D8D8D;
-    text-decoration: none;
-}
-
-footer p {
-    text-align: center;
-}
-
-footer img {
-    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 table img{
     z-index: -1;
-    
 }
 
-.foot{
-    background-image: url("img/Group\ 22.png");
-    background-size: 100% 100%;
+section{
+    width: 1000px;
+    margin: 0 auto;
 }
 
+h2{
+    font-weight: 800;
+    font-size: 72px;
+    text-align: right;
+    color: rgba(34, 34, 34, 0.1);
+    line-height: 98px;
+}
+
+.footer-line{
+    width: 65%;
+    outline: none;
+    background-color: #C4C4C4;
+    margin-top: 0px;
+    margin-left: 14%;
+    height: 1px;
+    margin-bottom: 24px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: start;
+    margin-left: 14%;
+}
+
+.text-gray{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 16px;
+    color: #8D8D8D;
+    display: block;
+    text-decoration: none;
+}
+
+.text-gray:hover{
+    text-decoration: none;
+}
+
+.logo-text{
+    display: block;
+}
+
+.info-text{
+    display: block;
+    margin-top: 32px;
+    margin-right: 52px;
+}
+
+.logotype{
+    display: flex;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.logotype img{
+    height: 30px;
+}
+
+.logotype figcaption{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3E3F43;
+    margin-left: 0px;
+    letter-spacing: 0.25em;
+}
+
+.info-title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.info-text-1{
+    margin-left: 52px;
+}
+
+.image-bg{
+    margin-top: -33px;
+    width: 350px;
+    height: 256px;
+}
+
+footer{
+    background-color: #efefef;
+}
+
+.bg-color{
+    background: linear-gradient(180deg, #FFFFFF 0%, #efefef 100%);
+
+    padding-left: 14%;
+}
