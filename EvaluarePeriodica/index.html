@@ -1,114 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orar USARB</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Orar Usarb</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body class="main-container">
-<div class="div-main">
-   <section class="section-1">
-    <div class="orar">
-        <h1>Orarul Cursurilor</h1>
-    </div>
-       <header class="header">
-        <div class="grupe">
-            <a href="#">Grupe</a>
-        </div>
-        <div class="profesori">
-            <a href="#">Profesori</a>
-        </div>
-        <div class="aule">
-            <a href="#">Aule</a>
-        </div>
-        </header>
-    <div class="poisk">
-        <input type="text" placeholder="Vvedi text">
-    </div>
-    <div style="overflow: auto; id="wrapper">
-        <ul>
-        <li>Page 1</li>
-        <li>Page 2</li>
-        <li>Page 3</li>
-        <li>Page 4</li>
-        <li>Page 5</li>
-        <li>Page 6</li>
-
-        </ul>
-    </div>
-    <div>
-        <select name="ZiuaSaptaminii" class="group">
-        <option value="1">Ziua</option>
-        <option value="2">Luni</option>
-        <option value="3">Marti</option>
-        <option value="4">Miercuri</option>
-        <option value="5">Joi</option>
-        <option value="6">Vineri</option>
-      </select>
-    </div>
-    <div>
-        <select name="Date" class="group">
-        <option value="1">Sapramina</option>
-        <option value="2">11.07-131/213</option>
-        <option value="3">11.07-131/213</option>
-        <option value="4">11.07-131/213</option>
-        <option value="5">11.07-131/213</option>
-        <option value="6">11.07-131/213</option>
-      </select>
-    </div>
-    <div>
-        <select name="Semestru" class="group">
-        <option value="1">Semestru</option>
-        <option value="2">2</option>
-        <option value="3">1</option>
-      </select>
-    </div>
-    <div id="table">
-        <div class="lectiile-tabl">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
-    </div>
-    <div class="vremia"><p>Orarul nu lucrează între 23:00 și 5:00</p></div>
-   </section> 
-
-   <!-- vTJRAIASECTIAA-->
-   <section class="section-2">
-    <img class="logo" src="assets/logo_usarb_new.png" alt="logo" >
-    <h1>UNIVERSITATEA DE STAT „ALECU RUSSO” DIN BĂLȚI</h1>
-    <div>
-        <div class="">
-
-        </div>
-    </div>
-   </section>
-</div>
+<body>
+	<div class="general_section">
+		<div class="section-left">
+			<div class="orar">
+				<p class="orar_text"><b>Orarul Cursurilor</b></p>
+			</div>
+			<div class="buttons">
+				<div class="button">
+					<p class="b-text">Grupe</p>
+				</div>
+				<div class="button">
+					<p class="b-text">Profesori</p>
+				</div>
+				<div class="button">
+					<p class="b-text">Aule</p>
+				</div>
+			</div>
+			<div class="search">
+				<img src="assets/free-icon-search-2414255.png" alt="" class="icon">
+				<input type="text" class="input">
+			</div>
+			<nav>
+				<ul>
+					<li>101</li>
+					<li>102</li>
+					<li>103</li>
+					<li>104</li>
+					<li>227</li>
+					<li>IS11Z</li>
+					<li>IT11Z</li>
+					<li>DR12Z</li>
+					<li>FE31Z</li>
+					<li>FE36Z</li>
+                    <li>101</li>
+					<li>102</li>
+					<li>103</li>
+					<li>104</li>
+					<li>227</li>
+					<li>IS11Z</li>
+					<li>IT11Z</li>
+					<li>DR12Z</li>
+					<li>FE31Z</li>
+					<li>FE36Z</li>
+                    <li>101</li>
+					<li>102</li>
+					<li>103</li>
+					<li>104</li>
+					<li>227</li>
+					<li>IS11Z</li>
+					<li>IT11Z</li>
+					<li>DR12Z</li>
+					<li>FE31Z</li>
+					<li>FE36Z</li>
+				</ul>
+			</nav>
+			<select id="selectvalue">
+				<option>Ziua</option>
+				<option>Luni</option>
+				<option>Marti</option>
+				<option>Miercuri</option>
+				<option>Joi</option>
+				<option>Vineri</option>
+				<option>Sambata</option>
+                <option>Duminica</option>
+			</select>
+			<select id="selectvalue">
+				<option>5</option>
+				<option>10</option>
+				<option>15</option>
+				<option>20</option>
+				<option>25</option>
+				<option>20</option>
+				<option>25</option>
+			</select>
+			<select id="selectvalue">
+				<option>Saptamana</option>
+				<option>1 (29.8.2022 - 4.9.2022)</option>
+				<option>2 (5.9.2022 - 11.9.2022)</option>
+				<option>3 (12.9.2022 - 18.9.2022)</option>
+				<option>4 (19.9.2022 - 25.9.2022)</option>
+				<option>5 (26.9.2022 - 2.10.2022)</option>
+				<option>6 (3.10.2022 - 9.10.2022)</option>
+			</select>
+			<!-- таблица -->
+			<div class="orar-small">
+                <div class="bg-green"></div>
+                <div class="bg-green">1</div>
+                <div class="bg-green">2</div>
+                <div class="bg-green">3</div>
+                <div class="bg-green">4</div>
+                <div class="bg-green">5</div>
+                <div class="bg-green">6</div>
+                <div class="bg-green">7</div>
+                <div class="bg-green item-hover">L-14</div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-green item-hover">Ma</div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-green item-hover">Mi</div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-green item-hover">J</div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-green item-hover">V</div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-green item-hover">S</div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-green item-hover">D</div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+                <div class="bg-white"></div>
+              </div>
+			<!-- таблица -->
+			<div class="info">
+				<p class="info_text">P - Prelegere</p>
+				<p class="info_text">S - Seminar</p>
+				<p class="info_text">L - Laborator</p>
+				<p class="info_text">PC - Proiect de Curs</p>
+			</div>
+			<div class="info">
+				<p class="info_text">EP - Evaluare periodică</p>
+				<p class="info_text">C - Consultație</p>
+				<p class="info_text">E - Examinare</p>
+				<p class="info_text">R - Reexaminare</p>
+			</div>
+			<div class="buttons_2">
+				<div class="download">
+					<p class="d-text">Descarcă orar</p>
+					<img src="assets/download.png" alt="" class="download_img">
+				</div>
+				<div class="student">
+					<img src="assets/student3.png" alt="" class="download_img_2">
+					<p class="d-text_2">Student</p>
+				</div>
+				<div class="exams">
+					<p class="d-text">Examene</p>
+					<img src="assets/printer.png" alt="" class="download_img">
+				</div>
+			</div>
+			<div class="orar footer">
+				<p class="footer_text">Orarul nu lucrează între 23:00 și 5:00</p>
+			</div>
+		</div>
+		
+		<div class="section-right">
+			<img src="assets/logo_usarb_new.png" alt="" class="logo">
+			<p class="title"><b>UNIVERSITATEA DE STAT „ALECU RUSSO” DIN BĂLȚI</b></p>
+			<div class="orar-small table_2">
+                <div class="bg-green item-hover"><span>8:00<br>9:30</div>
+                <div class="bg-white item-hover"><span class="span">Istoria românilor și universală<br>Laborator</span></div>
+                <div class="bg-green item-hover"><span>9:45<br>11:15</div>
+                <div class="bg-white item-hover"></div>
+                <div class="bg-green item-hover"><span>11:30<br>13:00</div>
+                <div class="bg-white item-hover"></div>
+                <div class="bg-green item-hover"><span>13:15<br>14:45</div>
+                <div class="bg-white item-hover"><span class="span">Istoria românilor și universală<br>Laborator</span></div>
+                <div class="bg-green item-hover"><span>15:00<br>16:30</div>
+                <div class="bg-white item-hover"></div>
+                <div class="bg-green item-hover"><span>16:45<br>18:15</div>
+                <div class="bg-white item-hover"></div>
+                <div class="bg-green item-hover"><span>18:30<br>20:00</div>
+                <div class="bg-white item-hover"></div>
+            </div>
+		</div>	
+	</div>	
 </body>
 </html>
